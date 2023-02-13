@@ -1,0 +1,621 @@
+body {
+    height: 100%;
+    margin: 0;
+    
+    
+
+
+
+}
+
+html{
+    scroll-behavior: smooth;
+
+
+}
+.containerr{
+    position: relative;
+    text-align: center;
+    color: white;
+    align-items: center;
+    
+    
+    
+
+}
+
+.welcome{
+    position:absolute;
+    top: 43%;
+    left: 50%;
+    width: 100%;
+    text-align: center;
+    
+    
+    transform: translate(-50%, -50%);
+    font-size: 65px;
+    -webkit-animation: tracking-in-expand 1.9s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+	        animation: tracking-in-expand 1.9s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+
+    
+
+
+}
+
+.web{
+    position:absolute;
+    top: 54%;
+    left: 50%;
+    transform: translate(-50%, -60%);
+    font-size: 40px;
+    -webkit-animation: tracking-in-expand 1.9s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+	        animation: tracking-in-expand 1.9s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+
+
+
+
+}
+
+
+.things{
+    position:absolute;
+    font-size: 25px;
+    top: 3%;
+    display:flex;
+    float: right;
+    text-align: center;
+
+}
+
+.tracking-in-expand {
+	-webkit-animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+	        animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+}
+
+
+@-webkit-keyframes tracking-in-expand {
+    0% {
+      letter-spacing: -0.5em;
+      opacity: 0;
+    }
+    40% {
+      opacity: 0.6;
+    }
+    100% {
+      opacity: 1;
+    }
+}
+@keyframes tracking-in-expand {
+    0% {
+      letter-spacing: -0.5em;
+      opacity: 0;
+    }
+    40% {
+      opacity: 0.6;
+    }
+    100% {
+      opacity: 1;
+    }
+}
+  
+
+.things a:link,a:visited{
+    color: white;
+    
+
+
+}
+
+.things a:hover,a:active{
+    font-size: larger;
+    
+    
+
+
+
+}
+
+
+.about,
+.work,
+.projects,
+.contact,
+.skills
+{
+    margin-left: 7rem;
+    
+
+
+
+}
+.home{
+    margin-left: 4rem;
+
+
+
+}
+.about{
+    
+
+
+
+
+}
+.work{
+    
+
+
+
+}
+
+
+.projects{
+    
+
+
+
+}
+.contact{
+    margin-right: 2rem;
+    
+
+
+}
+
+
+
+#image1{
+    
+    width: 100%; opacity: 0.9;
+    height: 100vh;
+
+}
+
+#bio{
+    text-align: center;
+    margin-top: 40px;
+    
+   
+    height: 60vh;
+    align-items: center;
+    justify-content: center;
+    
+    
+      
+
+}
+
+
+        
+        
+    
+
+
+
+
+#btn{
+    margin-top:3%;
+    align-items: center;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    text-decoration: none;
+	max-width: 400px;
+	position: relative;
+	padding: 2rem;
+	background-color:white;
+    color: black;
+	cursor:pointer;
+    border: 2px solid black;
+    position: relative;
+	font-size: 2rem;
+	font-weight: 700;
+	line-height: 1.333;
+}
+
+
+#btn:hover{
+    background-color:black;
+    color: white;
+    box-sizing: none;
+   transition: .4s ease-out;
+}
+#btn a {
+    color: black;
+    text-decoration: none;
+
+
+}
+button a:active,a:link{
+
+    color: black;
+}
+
+
+#image2{
+    
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    height: 350px;
+    width: 350px;
+    display: block;
+
+
+
+}
+
+
+
+
+
+
+
+#hi{
+    text-align: center;
+    font-size: 60px;
+    width: 100%;
+    
+    
+   
+    
+
+
+}
+
+
+
+#brief{
+    font-size:30px ;
+    
+    margin-bottom: 0;
+    width: 60%;
+    text-align: center;
+    margin:auto;
+    margin-top: 20px;
+
+
+}
+
+
+
+
+.text{
+    
+    width: 100%;
+    height: 100vh;
+    
+    text-align: center;
+
+
+
+    
+
+
+
+
+}
+#text1{
+    
+    
+    font-size: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    
+    
+
+
+
+}
+
+#text2{
+    
+    font-size: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    letter-spacing: 10px;
+    margin-bottom: 5px;
+   
+    
+    
+
+}
+
+hr {
+    width: 70%;
+    height: 1px;
+    color: #333;
+    background-color: #333;
+    border: none;
+    
+  }
+
+  #text3{
+    
+    text-align: center;
+    font-size: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    letter-spacing: 10px;
+    margin-bottom: 5px;
+
+
+
+  }
+.text4{
+    margin-top: auto;
+    text-align: center;
+    height:70vh;
+
+
+
+
+}
+
+.logo{
+    width: 60%;
+    text-align: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+
+
+
+}
+
+#contact{
+    
+    margin-bottom: 0;
+
+    margin-top: 0%;
+}
+.icons{
+    width: 70px;
+    height:70px;
+    text-align: center;
+    align-items: center;
+    display: inline-block;
+    margin-left: 3%;
+    margin-right: auto;
+    
+    
+
+
+
+}
+.containerrr {
+    text-align: center;
+    width: 60%;
+  }
+
+
+/* Media query for phones */
+@media only screen and (max-width: 660px){
+    body {
+        height: 100%;
+        margin: 0;
+        
+        
+    
+    
+    
+    }
+    
+    html{
+        scroll-behavior: smooth;
+    
+    
+    }
+    .containerr{
+        position: relative;
+        text-align: center;
+        color: white;
+        align-items: center;
+        
+        
+        
+        
+    
+    }
+    
+    .welcome{
+        position:absolute;
+        margin-top: 55px;
+        left: 50%;
+        width: 100%;
+        text-align: center;
+        transform: translate(-50%, -50%);
+        font-size: 20px;
+    }
+    
+    .web{
+        position:absolute;
+        left: 50%;
+        transform: translate(-50%, -60%);
+        font-size: 15px;
+        margin-top: 20px;
+    }
+    .things{
+        position:absolute;
+        font-size: 15px;
+        top: 3%;
+        display: block;
+        align-items: center;
+        width: 100%;
+        float: none;
+    }
+    a:link,a:visited{
+        text-decoration: none;
+        color: white;
+    }
+    a:hover,a:active{
+        font-size: larger;
+        text-decoration: none;
+    }
+    .home,
+    .about,
+    .work,
+    .projects,
+    .contact,
+    .skills
+    {
+        margin-left: 0rem;
+        margin-top: 30px;
+    }
+    .contact{
+        margin-right: 0rem;
+    }
+
+    #image1{
+        width: 100%; opacity: 0.9;
+        height: 100vh;
+    }
+    #bio{
+        text-align: center;
+        margin-top: 40px;
+        height: 50vh;
+        align-items: center;
+        justify-content: center;
+    }
+    #image2{
+        margin-top: 50px;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 50%;
+        height: 350px;
+        width: 350px;
+        display: block;
+    }
+    #hi{
+        text-align: center;
+        font-size: 40px;
+        width: 100%;
+    
+    }
+    #brief{
+        font-size:20px ;
+        margin-bottom: 0;
+        width: 60%;
+        text-align: center;
+        margin:auto;
+        margin-top: 20px;
+    
+    
+    }
+    #btn{
+        margin-top:3%;
+        align-items: center;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        text-decoration: none;
+        width: 200px;
+        height: 60px;
+        position: relative;
+        
+        padding-top: 25px;
+        background-color:white;
+        color: black;
+        border: 2px solid black;
+        position: relative;
+        font-size: 25px;  
+    }
+    #btn:hover{
+        background-color:black;
+        color: white;
+        box-sizing: none;
+        transition: 0.4s ease-out;
+    }
+    #btn a {
+        color: black;
+        text-decoration: none;
+    }
+    button a:active,a:link{
+        color: black;
+    }
+    
+    
+    
+    .text{ 
+        width: 100%;
+        height: 100vh; 
+        text-align: center;
+    }
+    #text1{
+        font-size: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 70%;
+    }
+    #text2{
+        font-size: 50px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 60%;
+        letter-spacing: 10px;
+        margin-bottom: 5px;
+    }
+    
+    hr {
+        width: 70%;
+        height: 1px;
+        color: #333;
+        background-color: #333;
+        border: none;
+        
+      }
+    
+      #text3{
+        
+        text-align: center;
+        font-size: 40px;
+        margin-left:25px;
+        margin-right: auto;
+        width: 50%;
+        letter-spacing: 10px;
+        margin-bottom: 5px;
+    
+      }
+    .text4{
+        margin-top: 250px;
+        text-align: center;
+        height:70vh;
+        align-items: center;
+    }
+    .text5{
+        text-align: center;
+        font-size: 40px;
+        margin-left:65px;
+    
+        width: 50%;
+        letter-spacing: 10px;
+        margin-bottom: 5px;
+
+
+    }
+    .logo{
+        width: 60%;
+        text-align: center;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+    
+    
+    
+    }
+
+
+
+
+
+
+
+
+}
+
